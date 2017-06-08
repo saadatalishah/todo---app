@@ -1,0 +1,32 @@
+body{
+    background-color: #223344;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.closse{
+    width: 18px;
+    background-color: darkorchid;
+    border: 1px solid #111111;
+    margin-left: 50px;
+}
+
+.addBtn{
+    border: 2px solid #634455;
+    margin: -45px;
+    background-color: darkblue;
+}
+.ulnew{
+    list-style-type: none;
+    margin: auto 0px auto 0px; 
+}
+.delete{
+    margin-left:50px;
+    border:2px solid #223344;
+    border-bottom-left-radius: 3px solid 
+}
+.input{
+    width: 400px;
+    margin-left: 100px;
+    height: 25px;
+    border: 2px solid #555442;
+}
