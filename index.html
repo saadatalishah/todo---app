@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-
-<body>
-    <div class="container">
-        <img src="images/p1.png" alt="potato" class="potatoes">
-        <!--<img src="images/p2.jpg" alt="potato" class="potatoes">-->
-        <img src="images/p3.png" alt="potato" class="potatoes">
-        <img src="images/p5.jpg" alt="potato" class="potatoes">
-        <img src="images/p6.jpg" alt="potato" class="potatoes">
-    </div> 
-    <button onclick="next(index)"> next </button>
-    <button onclick="previous()"> previous </button>
-<script src="app.js"> 
-</script>
-</body>
-
-</html>
+<body> 
+  <div class="main">
+  <!--<<center> <div class="head">-->
+     <center> <h1>TODOO APP </h1></center>
+  
+    <!--<<h1>six task at time</h1</div></center>-->
+    <center> <div class="first">
+    <div class="one1"><input type="text" id="typpe" class="hello2" placeholder="enter your task here"> <button onclick="search()" class="buton">ADD</button></div>
+    <form id="form1">
+    <br>  
+    <div class="one"><input type="text" id="task1" class="hello1"> <input type="button" class="btn" onclick="delete0()" value="delete"> </div>
+    <br>
+    <div class="one"><input type="text" id="task2" class="hello1"> <input type="button" class="btn" onclick="delete1()" value="delete"> </div>
+    <br>
+     <div class="one"><input type="text" id="task3" class="hello1"> <input type="button" class="btn" onclick="delete2()" value="delete"> </div>
+    <br>
+     <div class="one"><input type="text" id="task4" class="hello1"> <input type="button" class="btn" onclick="delete3()" value="delete"> </div>
+    <br>
+     <div class="one"><input type="text" id="task5" class="hello1"> <input type="button" class="btn" onclick="delete4()" value="delete"> </div>
+    <br>
+     <div class="one"><input type="text" id="task6" class="hello1"> <input type="button" class="btn" onclick="delete5()" value="delete"> </div>
+    <br>
+     <div class="one"><input type="text" id="task7" class="hello1"> <input type="button" class="btn" onclick="delete6()" value="delete"> </div>
+     <br>
+      <div class="one"><input type="text" id="task8" class="hello1"> <input type="button" class="btn" onclick="delete7()" value="delete"> </div>
+      <br>
+    <input  type="button" onclick="myfunction()" value="delete all">
+    </form>
+    </div></center>
+    <script src="app.js"></script>
+    </body>
+    </html>
